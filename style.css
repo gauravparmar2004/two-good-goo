@@ -192,54 +192,39 @@ body {
 @media (max-width:600px) {
 
     #nav {
-        width: 100%;
-        position: fixed;
-        z-index: 99;
-        padding: 2vh 1vw;
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
+        padding: 15px;
     }
 
     #nav-part1 {
-        height: 50px;
-        /* overflow: hidden; */
+        height: 67px;
+        overflow: hidden;
     }
 
     #nav-part1 svg {
+        height: 67px;
         display: block;
+        width: 80px;
     }
 
-    #nav svg {
-        height: 4.5vw;
+    #nav #twogoodlogo {
+        height: 45px;
+        margin-left: -10px;
     }
 
-    #nav #nav-part2 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 5vw;
-        margin-top: 0vh;
-
-    }
-
-    #nav-part2 #links a {
-        text-decoration: none;
-        padding: 0vh 1.8vw;
-        text-transform: uppercase;
-        color: #7B7B7B;
-        font-size: 1.9vw;
-        opacity: 0;
+    #links {
+        padding: 10px;
+        display: none;
     }
 
     #icons {
         border-radius: 50px;
         background-color: white;
-        padding: 10px;
+        padding: 5px;
+        margin-top: 3.5vw;
     }
 
     #nav-part2 #icons i {
-        padding: 0vh 5vw;
+        padding: 0vh 3vw;
         color: #3E3E3E;
         font-size: 5.1vw;
     }
@@ -270,15 +255,7 @@ body {
     }
 
     #video-container #play {
-        padding: 7vw 5vw;
-        font-size: 3.5vw;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        border-radius: 50%;
-        opacity: 1;
-        scale: 1;
-        transform: translate(-50%, -50%);
+        opacity: 0;
     }
 
     #page2 {
@@ -315,7 +292,7 @@ body {
     }
 
     .child {
-        height: 50vh;
+        height: 40vh;
         width: 55vw;
         position: relative;
         display: flex;
